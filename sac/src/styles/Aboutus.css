@@ -1,0 +1,61 @@
+.Aboutus-Para{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;
+}
+ul{
+    text-align: center;
+    padding: 0%;
+}
+li{
+    list-style: none;
+    font-size: 1.6em;
+    padding-top: 20px;
+}
+.Aboutus-List{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    align-self: center;
+    justify-self: start;
+}
+.Aboutus-Main{
+    display: grid;
+}
+img{
+    max-width: 30vw;
+    max-height: 40vh;
+}
+
+.Leftimgs{
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.Rightimgs{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+@media (max-width:641px){
+    li{
+        list-style: none;
+        font-size: 1.2em;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:470px){
+    li{
+        list-style: none;
+        font-size: .9em;
+        padding-top: 5px;
+    }
+}

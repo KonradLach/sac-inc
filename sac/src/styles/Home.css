@@ -1,0 +1,23 @@
+
+
+.Home {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Home-title{
+    background-color: rgba(201, 201, 201, 0.3);
+    font-size: 2em;
+    border-radius: 20px;
+
+}
+img{
+    max-height: 400px;
+    width: auto;
+}
+#ReactBackgroundSlider{
+    height: 100vh;
+}
